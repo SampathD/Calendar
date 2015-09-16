@@ -1,0 +1,91 @@
+﻿
+@model IList<Octet.Calendar.Dto.CalendarBasicInfoDto>
+
+<div class="col-md-9">
+    <b>Active Calendars</b>
+    <br /><br />
+   
+    <ul class="item-list">
+        @{
+            foreach (var calendar in @Model)
+            {
+                <li>
+                    <a href="#">
+                        <span class="img-cn">
+                            <img src="data:image/png;base64,@calendar.Icon" alt="image" />
+                        </span>
+                        <br>
+                        @calendar.Name
+                        <br>
+                        @calendar.SubscriberCount Subscribers
+                    </a>
+                </li>
+            }
+        }
+    </ul>
+ 
+    <nav class="pull-right">
+        <ul class="pagination">
+            <li>
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="col-md-9 pull-right">
+    <b>Draft Calendars</b>
+    <br><br>
+    <div class="carousel slide" id="myCarousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="col-lg-2 col-xs-2 col-md-2 col-sm-2">
+                    <a href="#"><img src="/Content/Images/1.png" class="img-responsive"></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-lg-2 col-xs-2 col-md-2 col-sm-2">
+                    <a href="#"><img src="/Content/Images/2.png" class="img-responsive"></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-lg-2 col-xs-2 col-md-2 col-sm-2">
+                    <a href="#"><img src="/Content/Images/3.png" class="img-responsive"></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-lg-2 col-xs-2 col-md-2 col-sm-2">
+                    <a href="#"><img src="/Content/Images/4.png" class="img-responsive"></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-lg-2 col-xs-2 col-md-2 col-sm-2">
+                    <a href="#"><img src="/Content/Images/5.png" class="img-responsive"></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-lg-2 col-xs-2 col-md-2 col-sm-2">
+                    <a href="#"><img src="/Content/Images/6.png" class="img-responsive"></a>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <i class="glyphicon glyphicon-chevron-right"></i>
+        </a>
+    </div>
+</div>
+

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C666C133-412E-4611-BE42-26B7E2005F2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Octet.Calendar.Service", "Services\Octet.Calendar.Service\Octet.Calendar.Service.csproj", "{CDCE2437-5444-43A6-961B-AD09D80B557D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BA092623-9F73-4EB9-B786-7EDF22E7A689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Octet.Calendar.WebUI", "Presentation\Octet.Calendar.WebUI\Octet.Calendar.WebUI.csproj", "{70C2F61F-0DCC-4A54-8252-1C49F9822E08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{27271138-48E1-448E-A8ED-C6A8704DA798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Octet.Calendar.Data", "DataAccess\Octet.Calendar.Data\Octet.Calendar.Data.csproj", "{BE1E38DD-EB5F-4D49-8EF1-2406783CAF25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{E96F317D-59E3-4DC9-923C-1D7989FCCF1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Octet.Calendar.Dto", "Shared\Octet.Calendar.Dto\Octet.Calendar.Dto.csproj", "{0FEFCDD9-FF3A-47B2-A1EC-C4C5E5527507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Octet.Calendar.Enums", "Shared\Octet.Calendar.Enums\Octet.Calendar.Enums.csproj", "{46A3CBA6-50B6-48B1-8556-FEB98318E314}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDCE2437-5444-43A6-961B-AD09D80B557D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCE2437-5444-43A6-961B-AD09D80B557D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCE2437-5444-43A6-961B-AD09D80B557D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCE2437-5444-43A6-961B-AD09D80B557D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C2F61F-0DCC-4A54-8252-1C49F9822E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C2F61F-0DCC-4A54-8252-1C49F9822E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C2F61F-0DCC-4A54-8252-1C49F9822E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C2F61F-0DCC-4A54-8252-1C49F9822E08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1E38DD-EB5F-4D49-8EF1-2406783CAF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1E38DD-EB5F-4D49-8EF1-2406783CAF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1E38DD-EB5F-4D49-8EF1-2406783CAF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1E38DD-EB5F-4D49-8EF1-2406783CAF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FEFCDD9-FF3A-47B2-A1EC-C4C5E5527507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FEFCDD9-FF3A-47B2-A1EC-C4C5E5527507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FEFCDD9-FF3A-47B2-A1EC-C4C5E5527507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FEFCDD9-FF3A-47B2-A1EC-C4C5E5527507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A3CBA6-50B6-48B1-8556-FEB98318E314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A3CBA6-50B6-48B1-8556-FEB98318E314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A3CBA6-50B6-48B1-8556-FEB98318E314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A3CBA6-50B6-48B1-8556-FEB98318E314}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDCE2437-5444-43A6-961B-AD09D80B557D} = {C666C133-412E-4611-BE42-26B7E2005F2F}
+		{70C2F61F-0DCC-4A54-8252-1C49F9822E08} = {BA092623-9F73-4EB9-B786-7EDF22E7A689}
+		{BE1E38DD-EB5F-4D49-8EF1-2406783CAF25} = {27271138-48E1-448E-A8ED-C6A8704DA798}
+		{0FEFCDD9-FF3A-47B2-A1EC-C4C5E5527507} = {E96F317D-59E3-4DC9-923C-1D7989FCCF1D}
+		{46A3CBA6-50B6-48B1-8556-FEB98318E314} = {E96F317D-59E3-4DC9-923C-1D7989FCCF1D}
+	EndGlobalSection
+EndGlobal

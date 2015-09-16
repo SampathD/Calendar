@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Globo</title>
+    <link rel="stylesheet" href="/Content/Site.css" />
+    <link rel="stylesheet" href="/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Content/font-awesome.min.css"/>
+    <script src="/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <ul id="top-nav">
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-droper dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-user"></i>
+                                    Your Account
+                                    <i class="fa fa-angle-down"></i>
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row" id="logo-area">
+                <div class="col-xs-3">
+                    <a href="#" id="logo">
+                        <img src="/Content/Images/logo.png" alt="Globo" tabindex="1" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-9 branding">
+                    Globo
+                </div>
+            </div>
+            <!--/logo-area-->
+        </div>
+    </header>
+    <div class="clearfix"></div>
+    <div class="container contBody">
+        <div class="row">
+            <div class="col-md-3 sub-nav-arae">
+                <ul id="sub-nav">
+                    <li class="branding">GENERAL</li>
+                    <li><a href="#" tabindex="2"><i class="icon fa fa-calendar"></i> Calendars</a></li>
+                    <li><a href="#" tabindex="3"><i class="icon fa fa-code"></i> Buttons</a></li>
+                    <li><a href="#"><i class="icon fa fa-cogs"></i> Promotion Automation</a></li>
+                    <li><a href="#"><i class="icon fa fa-globe"></i> International</a></li>
+                    <li><a href="#"><i class="icon fa fa-file-text"></i> Subscribe Pages</a></li>
+                    <li><a href="#"><i class="icon fa fa-clock-o"></i> Schedule Page</a></li>
+                    <li class="branding">Socials</li>
+                    <li><a href="#"><i class="icon fa fa-twitter"></i> Twitter Handles</a></li>
+                    <li><a href="#"><i class="icon fa fa-facebook"></i> Facebook Pages</a></li>
+                </ul>
+            </div>
+            <!--/sub-nav-arae-->
+            <div class="col-md-9 count-area">
+                <ul class="count-display">
+                    <li>
+                        <span class="count">99</span>
+
+                        <div class="clearfix"></div>
+                        <span>Active Calendars</span>
+                    </li>
+                    <li>
+                        <span class="count">99,999</span>
+
+                        <div class="clearfix"></div>
+                        <span>Total Subscribers</span>
+                    </li>
+                </ul>
+            </div>
+            <!--/count-area-->
+
+            <div class="col-md-9">
+                <div class="clearfix"></div>
+                <br />
+
+                <div class="clearfix"></div>
+                <div class="col-md-6">
+                    <div class="form-inline">
+                        <div class="form-group search-box">
+                            <input type="email" class="form-control" placeholder="Search">
+                        </div>
+                        <button class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="import-area">
+                        <a href="#" class="btn btn-success">CREATE CALENDAR <i class="fa fa-calendar"></i></a>
+                        <br>
+                        <a href="#" class="text-success"><i class="fa fa-download"></i> Import from TV Guide</a>
+                    </div>
+                </div>
+            </div>
+            @RenderBody()
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+    <br>
+    <div class="clearfix"></div>
+    <footer id="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"><img src="/Content/Images/cal-reply.png"> </div>
+                <div class="col-md-6">
+                    <ul class="navi pull-right">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
